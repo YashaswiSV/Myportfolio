@@ -1,0 +1,118 @@
+
+
+html{
+    overflow-x: hidden;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-image: url(./backg12hd.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+     /* backface-visibility:hidden; */
+     /* filter: blur(8px); */
+    
+}
+
+
+.rubik-mono one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }  
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+}
+.nav .nav1 li{
+    list-style-type: none;
+}
+.nav .nav1 li img{
+    width: 50px;
+    
+
+}
+.nav .nav2{
+    display: flex;
+}
+.nav .nav2 li{
+    list-style-type: none;
+    padding: 20px;
+}
+.nav .nav2 li a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: 45px; */
+    
+}
+.nav .nav3 li{
+    list-style-type: none;
+}
+.nav .nav3 li a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    /* border-color: ; */
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px ;
+    opacity: 80%;
+}
+               /*=======Nav done========  */
+
+               /* ==========hero section============== */
+.hero{
+    display: flex;
+    padding-left: 170px;
+    padding-top: 200px;
+
+}  
+.hero .hero1 {
+    color: white;
+}  
+.hero .hero1 .hero11{
+    color:orange;
+    font-weight: bold;
+}
+.hero .hero2 .hero21 li  {
+    list-style-type: none;
+}
+.hero .hero2 .hero21 li a{
+    text-decoration: none;
+    color: blue;
+    background-color: beige;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+   border: 2px solid black;
+}  
+.hero .hero3{
+    display: flex;
+    justify-content:space-evenly
+}
+.hero .hero3 img{
+    height: auto;
+    width: 350px;
+    /* padding-bottom: 200px; */
+    position: relative;
+    bottom: 100px; 
+    padding-left: 300px;
+}
+.icon i{
+    font-size: 24px;
+    margin: 5px;
+    color: black;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.icon{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    z-index: 3;
+    
+}
